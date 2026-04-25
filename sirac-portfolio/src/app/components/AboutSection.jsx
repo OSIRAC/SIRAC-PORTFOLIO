@@ -113,7 +113,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Hakkımda</h2>
           <p className="text-base lg:text-lg text-slate-400 leading-relaxed">
-            <span className="text-white font-semibold">Matematik Mühendisliği</span>'nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle
+            <span className="text-white font-semibold">Matematik Mühendisliği</span>&apos;nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle
             .NET Core ve mikroservis mimarileri üzerine kendimi geliştirirken, şu an
             <span className="text-blue-400 font-medium"> Architecht</span> bünyesinde finansal teknolojiler üzerine çalışarak profesyonel tecrübe ediniyorum.
           </p>
