@@ -108,7 +108,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Hakkımda</h2>
           <p className="text-base lg:text-lg text-slate-400 leading-relaxed">
-            Matematik Mühendisliği'nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle .NET Core ve mikroservis mimarileri üzerine kendimi geliştiriyorum. Architecht ve Emlak Katılım gibi kurumlarda finansal teknolojiler üzerine görev alarak edindiğim güçlü altyapı sayesinde, ölçeklenebilir ve performanslı sistemler inşa etmeye odaklanıyorum.
+            Matematik Mühendisliği&apos;nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle .NET Core ve mikroservis mimarileri üzerine kendimi geliştiriyorum. Architecht ve Emlak Katılım gibi kurumlarda finansal teknolojiler üzerine görev alarak edindiğim güçlü altyapı sayesinde, ölçeklenebilir ve performanslı sistemler inşa etmeye odaklanıyorum.
           </p>
           <div className="flex flex-row justify-start mt-8 gap-4">
             <TabButton
