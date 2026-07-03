@@ -18,9 +18,7 @@ const TAB_DATA = [
           "React / Next.js",
         ].map((skill, index) => (
           <li key={index} className="flex items-center gap-2">
-            {/* Nokta boyutunu Eğitim ile aynı (w-2 h-2) yaptık */}
             <span className="w-2 h-2 rounded-full bg-white shrink-0"></span>
-            {/* Fontu bold yaparak Eğitim başlığıyla eşitledik */}
             <span className="text-white text-sm md:text-base font-bold tracking-tight">
               {skill}
             </span>
@@ -39,7 +37,7 @@ const TAB_DATA = [
             <span className="w-2 h-2 rounded-full bg-white"></span>
             <span className="font-bold text-white">Yıldız Teknik Üniversitesi</span>
           </div>
-          <p className="text-xs text-slate-400 ml-4">Matematik Mühendisliği (4. Sınıf)</p>
+          <p className="text-xs text-slate-400 ml-4">Matematik Mühendisliği</p>
         </li>
       </ul>
     ),
@@ -49,7 +47,6 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-none pl-2">
-        {/* Şu anki İşin */}
         <li className="mb-4">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-white"></span>
@@ -58,7 +55,6 @@ const TAB_DATA = [
           <p className="text-xs text-slate-400 ml-4">Part-time Software Developer</p>
         </li>
 
-        {/* Stajlar */}
         <li className="mb-4">
           <div className="flex items-center gap-2 text-slate-300">
             <span className="w-2 h-2 rounded-full bg-white"></span>
@@ -75,7 +71,6 @@ const TAB_DATA = [
           <p className="text-xs text-slate-500 ml-4">IT Intern</p>
         </li>
 
-        {/* Eğitim / Gelişim */}
         <li>
           <div className="flex items-center gap-2 text-slate-300">
             <span className="w-2 h-2 rounded-full bg-white"></span>
@@ -113,9 +108,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Hakkımda</h2>
           <p className="text-base lg:text-lg text-slate-400 leading-relaxed">
-            <span className="text-white font-semibold">Matematik Mühendisliği</span>&apos;nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle
-            .NET Core ve mikroservis mimarileri üzerine kendimi geliştirirken, şu an
-            <span className="text-blue-400 font-medium"> Architecht</span> bünyesinde finansal teknolojiler üzerine çalışarak profesyonel tecrübe ediniyorum.
+            Matematik Mühendisliği'nin getirdiği analitik temeli, backend dünyasının modern teknolojileriyle harmanlıyorum. Özellikle .NET Core ve mikroservis mimarileri üzerine kendimi geliştiriyorum. Architecht ve Emlak Katılım gibi kurumlarda finansal teknolojiler üzerine görev alarak edindiğim güçlü altyapı sayesinde, ölçeklenebilir ve performanslı sistemler inşa etmeye odaklanıyorum.
           </p>
           <div className="flex flex-row justify-start mt-8 gap-4">
             <TabButton

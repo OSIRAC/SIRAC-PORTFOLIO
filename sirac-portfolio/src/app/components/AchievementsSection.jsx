@@ -26,9 +26,9 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    metric: "YTÜ / Sınıf",
-    value: "4",
-    postfix: ". Sınıf",
+    metric: "YTÜ / Mat. Müh.",
+    value: "2026",
+    postfix: " Mezunu",
   },
 ];
 

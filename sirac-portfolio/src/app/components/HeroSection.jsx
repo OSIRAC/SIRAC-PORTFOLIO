@@ -37,9 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl leading-relaxed">
-            Yıldız Teknik Üniversitesi Matematik Mühendisliği öğrencisiyim. 
-            <span className="text-white font-medium"> Architecht (Kuveyt Türk)</span> bünyesinde, 
-            finansal teknolojiler ve kurumsal yazılım çözümleri üzerine tutkuyla çalışıyorum.
+            Yıldız Teknik Üniversitesi Matematik Mühendisliği mezunuyum. Finansal teknolojiler alanında (Architecht & Emlak Katılım) edindiğim profesyonel tecrübeyle, modern ve ölçeklenebilir kurumsal yazılım çözümleri üzerine tutkuyla projeler geliştiriyorum.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link            
