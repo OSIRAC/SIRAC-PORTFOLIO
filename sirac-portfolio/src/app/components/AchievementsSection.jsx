@@ -27,8 +27,8 @@ const achievementsList = [
   },
   {
     metric: "YTÜ / Mat. Müh.",
-    value: "2026",
-    postfix: " Mezunu",
+    value: "",
+    postfix: "2026 Mezunu",
   },
 ];
 
